@@ -61,3 +61,9 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+      - typo
+      - rollback
+      - wip
+
+env_files:
+  github_token: .github
