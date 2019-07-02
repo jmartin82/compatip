@@ -32,7 +32,7 @@ Example:
 Asserts the current version of the service with the specified constraints.
 
 Example:
-`compatip assert grpc://myservice:50051/rpc/versionservice/current ">1.4.10"
+`compatip assert grpc://myservice:50051/rpc/versionservice/current ">1.4.10"`
 
 Exit codes:
 
@@ -44,7 +44,7 @@ Exit codes:
 
 ## Examples
 
-#### Check service version (plain text)
+#### Check service version
 
 HTTP (GET verb) request to the service:
 
@@ -107,13 +107,6 @@ $ go get -d github.com/jmartin82/jmartin82
 
 ## Installation
 
-### Homebrew
-
-```sh
-brew tap jmartin82/compatip
-brew install jmartin82
-```
-
 ### Binary Release (Linux/OSX)
 
 You can manually download a binary release from [the release page](https://github.com/jmartin82/compatip/releases).
@@ -126,18 +119,10 @@ curl https://raw.githubusercontent.com/jmartin82/compatip/master/scripts/install
 
 ### Go
 
-required go version: 1.12
+Required go version: 1.12
 
 ```sh
 go get github.com/jmartin82/compatip
-```
-
-### Deb or RPM packages
-
-You can install compatip using your DEB o RPM package manager:
-
-```sh
-pending
 ```
 
 
