@@ -10,6 +10,9 @@ With `Compatip` you can specify the service you want to check and the version co
 
 So far, `Compatip` supports REST and gRPC+Protobuf communications, Semver semantics (MAJOR.MINOR.PATCH) to ensure the compatibility between services and it's also able to use JSON dot notation to extract the version from the service response.
 
+## TL;DR
+
+![CMD assert version](doc/assert_gt_lt.jpg)
 
 ## Usage
     
@@ -22,10 +25,10 @@ Example:
 
 **Exit codes:**
 
-0: All Ok.
-2: Input argument error.
-3: Error on server communication.
-4: Invalid version response.
+0: All Ok.<br>
+2: Input argument error.<br>
+3: Error on server communication.<br>
+4: Invalid version response.<br>
 
 #### Assert Command
 
@@ -36,11 +39,11 @@ Example:
 
 Exit codes:
 
-0: All Ok.
-1: Incompatible service version.
-2: Input argument error.
-3: Error on server communication.
-4: Invalid version response.
+0: All Ok. <br>
+1: Incompatible service version.<br>
+2: Input argument error.<br>
+3: Error on server communication.<br>
+4: Invalid version response.<br>
 
 ## Examples
 
