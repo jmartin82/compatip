@@ -27,18 +27,18 @@ nfpms:
     formats:
       - deb
       - rpm
-brews:
-  -
-    name: "compatip"
-    github:
-      owner: jmartin82
-      name: homebrew-compatip
-    commit_author:
-      name: Jordi Martin
-      email: jordimartin@gmail.com
-    folder: Formula
-    homepage: "https://jordi.io/"
-    description: "Compatip it's a simple tool to ensure compatibility between microservices."
+#brews:
+#  -
+#    name: "compatip"
+#    github:
+#      owner: jmartin82
+#      name: homebrew-compatip
+#    commit_author:
+#      name: Jordi Martin
+#      email: jordimartin@gmail.com
+#    folder: Formula
+#    homepage: "https://jordi.io/"
+#    description: "Compatip it's a simple tool to ensure compatibility between microservices."
 
 archives:
   -

@@ -25,10 +25,10 @@ Example:
 
 **Exit codes:**
 
-0: All Ok.<br>
-2: Input argument error.<br>
-3: Error on server communication.<br>
-4: Invalid version response.<br>
+`0`: All Ok.<br>
+`2`: Input argument error.<br>
+`3`: Error on server communication.<br>
+`4`: Invalid version response.<br>
 
 #### Assert Command
 
@@ -39,11 +39,11 @@ Example:
 
 Exit codes:
 
-0: All Ok. <br>
-1: Incompatible service version.<br>
-2: Input argument error.<br>
-3: Error on server communication.<br>
-4: Invalid version response.<br>
+`0`: All Ok. <br>
+`1`: Incompatible service version.<br>
+`2`: Input argument error.<br>
+`3`: Error on server communication.<br>
+`4`: Invalid version response.<br>
 
 ## Examples
 
@@ -71,7 +71,7 @@ gRPC request to the service:
 ![CMD check version](doc/check_grpc.jpg)
 
 
-Due the nature the protobuf the service should answer with this very same message format.
+Due to the nature the protobuf the service should answer with this very same message format.
 
 ```protoc
 message VersionMessage {
@@ -128,6 +128,19 @@ Required go version: 1.12
 go get github.com/jmartin82/compatip
 ```
 
+### DEB and RPM
+
+You can manually download a DEB and RPM packages release from [the release page](https://github.com/jmartin82/compatip/releases)
+
+```sh
+sudo dpkg -i compatip_XXX_linux_amd64.deb
+```
+
+OR
+
+```sh
+sudo rpm –i compatip_XXX_linux_amd64.rpm
+```
 
 ## Contribution
 
