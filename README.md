@@ -1,4 +1,4 @@
-# Compatip
+# Compatip [![Build Status](https://travis-ci.org/jmartin82/compatip.svg?branch=master)](https://travis-ci.org/jmartin82/compatip) [![codecov](https://codecov.io/gh/jmartin82/compatip/branch/master/graph/badge.svg)](https://codecov.io/gh/jmartin82/compatip)
 
 `Compatip` it's a simple tool to ensure compatibility between microservices.
 
