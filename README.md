@@ -95,7 +95,7 @@ Greater than `1.2` and lower than `1.4`:
 
 ![CMD assert version](doc/assert_gt_lt.jpg)
 
-Uncompilable range:
+Incompatible range:
 
 ![CMD assert version](doc/assert_gt_lt_error.jpg)
 
@@ -122,7 +122,7 @@ curl https://raw.githubusercontent.com/jmartin82/compatip/master/scripts/install
 
 ### Go
 
-Required go version: 1.12
+Required go version: 1.12+
 
 ```sh
 go get github.com/jmartin82/compatip
@@ -152,6 +152,8 @@ sudo rpm –i compatip_XXX_linux_amd64.rpm
 1. Run `gofmt -s`
 1. Create a new Pull Request
 
-## Author
+### Licence
 
-[jmartin82](https://github.com/jmartin82)
+Copyright © 2019, Jordi Martín (http://jordi.io)
+
+Released under MIT license, see [LICENSE](LICENSE.md) for details.
