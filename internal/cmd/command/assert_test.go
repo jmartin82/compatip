@@ -46,7 +46,7 @@ func getAssertCommandContext(args ...string)  *cli.Context{
 	flags.Parse(args)
 
 	context:=cli.NewContext(app, flags,nil)
-	context.Command.Action = "assert"
+	context.Command.Name = "assert"
 
 	return context
 
