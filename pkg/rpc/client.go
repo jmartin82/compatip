@@ -3,6 +3,7 @@ package rpc
 import (
 	"context"
 	"fmt"
+	"github.com/jmartin82/compatip/pkg/rpc/generated"
 	"net/url"
 
 	"google.golang.org/grpc"
@@ -46,8 +47,8 @@ func (re *GRPCTransport) DoCall(u string) (string, error) {
 	ctx := context.Background()
 	opts := []grpc.CallOption{}
 
-	in := &Empty{}
-	out := &VersionMessage{}
+	in := &generated.Empty{}
+	out := &generated.VersionMessage{}
 
 	err = conn.Invoke(ctx, url.RequestURI() , in, out, opts...)
 	if err != nil {
